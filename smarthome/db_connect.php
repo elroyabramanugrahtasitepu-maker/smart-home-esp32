@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db   = "smarthome_db";
+$db   = "";
 
 $conn = new mysqli($host, $user, $pass, $db);
 
