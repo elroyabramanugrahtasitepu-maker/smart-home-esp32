@@ -26,11 +26,11 @@
 #define BUTTON_PIN 21    // Pin untuk Push Button (GND)
 
 // === KREDENSIAL WIFI ===
-const char* ssid = "ESP_TEST";
-const char* password = "enakbangetcok";
+const char* ssid = "";
+const char* password = "";
 
 // === URL PHP BACKEND ===
-String serverName = "http://10.122.18.44/smarthome/api.php"; 
+String serverName = "http://******************"; 
 
 DHT dht(DHTPIN, DHTTYPE);
 LiquidCrystal_I2C lcd(0x27, 16, 2);
